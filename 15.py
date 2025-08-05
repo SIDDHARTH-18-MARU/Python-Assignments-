@@ -1,0 +1,11 @@
+string = input("Enter a string: ")
+print("The length of the string is: ",len(string))
+print("Lowercase string: ",string.lower())
+print("Uppercase string: ",string.upper())
+print("The number of times substring 'is' appears in the string is: ",string.count('is'))
+print("The first 3 characters of the string are: ",string[:3])
+print("Aplphabetic string: ",string.isalpha())
+print("Alphanumeric string: ",string.isalnum())
+words = string.split()
+print("The words in the string are: ",words)
+
